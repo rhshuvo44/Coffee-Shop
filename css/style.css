@@ -1,0 +1,223 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+li {
+  list-style: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 10%;
+  background-color: transparent;
+}
+.logo {
+  color: #fff;
+  cursor: pointer;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li a {
+  padding: 0 10px;
+  color: #fff;
+}
+.menu li a:hover {
+  border-bottom: 2px solid #fff;
+}
+.top-banner {
+  background-image: url(../img/home-bg.jpg);
+  color: #fff;
+  padding: 0 10%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -10%;
+}
+/*.overly{
+  background-color: black;
+  opacity: 0.7;
+  height: 700px;
+}*/
+.content {
+  padding-top: 30%;
+  width: 40%;
+}
+.content h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.btn {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  color: #fff;
+}
+.btn:hover {
+  background-color: orange;
+}
+.btn-1 {
+  border: 1px solid #512a10;
+  border-radius: 5px;
+  padding: 10px 25px;
+  color: #512a10;
+}
+.btn-1:hover {
+  background-color: #512a10;
+  color: #fff;
+}
+.about-us {
+  display: flex;
+  padding: 0 10%;
+}
+.about-box {
+  width: 40%;
+}
+.about-box img {
+  height: 80%;
+}
+.about-content {
+  margin-top: 60px;
+  padding-left: 11%;
+}
+.about-content h1 {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 15px 0;
+}
+.about-content h3 {
+  font-size: 30px;
+  font-weight: 300;
+  color: #512a10;
+}
+.about-content p {
+  margin-bottom: 50px;
+}
+.about-content-box {
+  display: flex;
+  margin-top: 50px;
+}
+.about-content-card {
+  width: 30%;
+  background: #eee;
+  margin: 10px;
+  border-radius: 10px;
+  padding-top: 25px;
+  text-align: center;
+}
+.about-content-card i {
+  color: #512a10;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+.card-box {
+  display: flex;
+}
+.Menu-area,
+.review-area {
+  padding: 5% 10%;
+  background-color: #eeeeee;
+}
+.Menu-area h1,
+.review-area h1,
+.Contact-area h1 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.card {
+  padding: 4%;
+  margin: 10px;
+  text-align: center;
+  color: #512a10;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.card:hover {
+  background-color: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  transform: translateY(-1rem);
+}
+.card img {
+  text-align: center;
+  height: 150px;
+  margin-bottom: 20px;
+}
+.card-info p {
+  margin: 20px 0;
+  font-size: 14px;
+  line-height: 2;
+}
+.gallery {
+  padding: 2% 10%;
+}
+.gallery h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+.gallery-box {
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  width: 30%;
+}
+.gallery-img img {
+  width: 100%;
+  height: 250px;
+}
+.review-area img {
+  border-radius: 50%;
+}
+.Contact-area {
+  padding: 2% 10%;
+}
+.Contact-area .contact-card {
+  width: 30%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  padding: 4%;
+  margin: 10px;
+  text-align: center;
+  color: #512a10;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.Contact-area .contact-card i {
+  font-size: 50px;
+  padding: 20px;
+}
+
+.Contact-area .contact-card:hover i {
+  transform: translateY(-1rem);
+}
+.Contact-area .contact-card h4 {
+  font-size: 20px;
+  line-height: 2;
+}
+.Contact-area .contact-card p {
+  font-size: 14px;
+  line-height: 2;
+}
+footer {
+  text-align: center;
+  padding: 5%;
+}
+footer ul li {
+  display: inline-block;
+  padding-top: 2%;
+}
+footer ul li a {
+  padding: 5px;
+  border: 2px solid #512a10;
+  font-size: 25px;
+}
+footer ul li a:hover {
+  background-color: #512a10;
+  color: #fff;
+}

@@ -192,7 +192,6 @@ header {
   font-size: 50px;
   padding: 20px;
 }
-
 .Contact-area .contact-card:hover i {
   transform: translateY(-1rem);
 }
@@ -224,34 +223,37 @@ footer ul li a:hover {
 @media only screen and (max-width: 992px) {
   .about-box img {
     height: 60%;
-}
-.about-content {
-  margin-left: 50px;
-}
+  }
+  .about-content {
+    margin-left: 50px;
+  }
 }
 @media only screen and (max-width: 768px) {
   header {
     padding: 2% 5%;
-}.top-banner {
-      padding: 0 20px;
+  }
+  .top-banner {
+    padding: 0 20px;
     height: 450px;
   }
   .content {
     width: 70%;
   }
-.content h1 {
-      font-size: 30px;
-      font-weight: bold;
-    }.about-us {
-  display: block;
-}
-.card-box {
-  display: flex;
-  flex-direction: column;
-}
-.gallery-box {
+  .content h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .about-us {
+    display: block;
+  }
+  .card-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .gallery-box {
     width: 100%;
-}.Contact-area .contact-card {
-  width: 100%; 
-}
+  }
+  .Contact-area .contact-card {
+    width: 100%;
+  }
 }

@@ -1,0 +1,15 @@
+@media only screen and(max-width:768px){
+    .top-banner {
+        padding: 0 20px;
+      height: 450px;
+    }
+    .content {
+      width: 70%;
+    }
+.content h1 {
+        font-size: 30px;
+        font-weight: bold;
+      }.about-us {
+    display: block;
+  }
+}

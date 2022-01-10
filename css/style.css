@@ -138,7 +138,7 @@ header {
   text-align: center;
   color: #512a10;
   border-radius: 10px;
-  transition: 0.3s;
+  transition: all 0.3s;
 }
 .card:hover {
   background-color: #fff;
@@ -186,7 +186,7 @@ header {
   text-align: center;
   color: #512a10;
   border-radius: 10px;
-  transition: 0.3s;
+  transition: all 0.3s;
 }
 .Contact-area .contact-card i {
   font-size: 50px;
@@ -220,4 +220,38 @@ footer ul li a {
 footer ul li a:hover {
   background-color: #512a10;
   color: #fff;
+}
+@media only screen and (max-width: 992px) {
+  .about-box img {
+    height: 60%;
+}
+.about-content {
+  margin-left: 50px;
+}
+}
+@media only screen and (max-width: 768px) {
+  header {
+    padding: 2% 5%;
+}.top-banner {
+      padding: 0 20px;
+    height: 450px;
+  }
+  .content {
+    width: 70%;
+  }
+.content h1 {
+      font-size: 30px;
+      font-weight: bold;
+    }.about-us {
+  display: block;
+}
+.card-box {
+  display: flex;
+  flex-direction: column;
+}
+.gallery-box {
+    width: 100%;
+}.Contact-area .contact-card {
+  width: 100%; 
+}
 }
